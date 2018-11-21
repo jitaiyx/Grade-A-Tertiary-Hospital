@@ -1,5 +1,5 @@
 {
-  "title": "白金体检套餐-2448",
+  "title": "白金体检套餐-2200",
   "columns": [{"name": "序号", "style": "width:26pt;"}, {"name": "地区"}, {"name": "医院名称"}, {"name": "体检套餐"}],
   "rows": [
     [{"name": "1"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "三号个检套餐（40-50岁）-男", "type": "link", "linkId": "tgjtc4050m"}],

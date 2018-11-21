@@ -1,5 +1,5 @@
 {
-  "title": "至尊体检套餐-14448",
+  "title": "至尊体检套餐-10000",
   "columns": [{"name": "序号", "style": "width:26pt;"}, {"name": "地区"}, {"name": "医院名称"}, {"name": "体检套餐"}],
   "rows": [
     [{"name": "1"}, {"name": "北京"}, {"name": "北京协和医院"}, {"name": "VIP女性体检套餐", "type": "link", "linkId": "vipf1w"}],
