@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="referrer" content="always"/>
+  <meta charset='utf-8'/>
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <title>体检套餐</title>
+  <style>
+    body {
+      padding: 0px;
+      margin: 0px;
+      font-family: "microsoft yahei";
+      font-size: 13px;
+      line-height: 1.5;
+      background: #eee;
+    }
+
+    .title {
+      height: 40px;
+      margin-left: 2px;
+      margin-right: 2px;
+    }
+
+    .title a {
+      display: block;
+      float: left;
+      width: 50%;
+      color: #333;
+      text-align: center;
+      background: #eee;
+      line-height: 40px;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .title a.active {
+      color: #fff;
+      background: #db2f21;
+      border-radius: 5px 5px 0px 0px;
+      width: 100%;
+    }
+
+    .zx_app_top {
+      height: 1rem;
+      line-height: 1rem;
+      padding: 0.5rem 0;
+      background: #ffffff;
+      margin-bottom: 2px;
+      padding-left: 12px;
+    }
+
+    .zx_app_top.top_con {
+      text-align: center;
+      position: relative
+    }
+
+    .zx_app_top.top_con.top_back_btn {
+      position: absolute;
+      left: 0.4rem;
+      top: 0px;
+      background-size: 0.875rem 0.875rem
+    }
+
+    .back_icon {
+      content: "";
+      border-top: 1px solid #f00000;
+      border-left: 1px solid #f00000;
+      width: .24rem;
+      height: .24rem;
+      display: inline-block;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+      width: 10px;
+      height: 10px
+    }
+
+    .zx_app_top .top_con .top_back_btn a {
+      line-height: 1rem;
+      font-size: 0.6rem;
+      color: #272727;
+      text-decoration: none;
+      padding-left: 1rem;
+      display: block;
+      width: 3rem;
+      text-align: left;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      background: #eee;
+      font-size: 11pt;
+      font-weight: 400;
+      font-style: normal;
+      /* font-family: "微软雅黑", "monospace"; */
+    }
+    #sub_title{
+
+      font-weight:550;
+      text-align: center;
+      border-left:1px solid grey;border-right: 1px solid grey;
+    }
+    td {
+      border: 1px solid grey;
+      font-weight: 550;
+      text-align: center;
+      font-size: 10pt;
+      word-wrap: break-word;
+
+    }
+
+    table tr td:last-child,
+    table tr td:nth-child(4) {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="zx_app_top">
+    <div class="top_con">
+      <div class="top_back_btn">
+        <a href="javascript:history.go(-1);" style="font-size: 16px;">
+          <label class="back_icon"></label>返回</a>
+      </div>
+    </div>
+  </div>
+  <div class="title">
+    <a href="#" id="page_title" hidefocus="true" class="active"></a>
+  </div>
+  <div style="box-sizing:border-box;padding:0px 2px 2px 2px">
+      <div id="sub_title"></div>
+      <table border=0 cellpadding=0 cellspacing=0 style='border-collapse: collapse;table-layout:fixed;'>
+        <thead id="table_head"></thead>
+        <tbody id="table_body"></tbody>
+      </table>
+  </div>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<script type="text/javascript">
+  $(function () {
+    var packageId = window.location.search.substr(1);
+    var jsonUrl = 'json/' + packageId  + '.json'+'?T='+Math.random();
+    $.getJSON(jsonUrl, null, function (jsonData) {
+      getPackage(jsonData);
+    });
+  });
+
+  function getPackage(jsonData) {
+    var packageData = jsonData;
+     //拼接table的表头
+     var columnHtml = ''
+     var columnTitles =''
+      if (packageData.subTitle) {
+        columnTitles += '<div style="height:40px;line-height:40px">'+ packageData.subTitle.name+'</div>'
+       $('#sub_title').html(columnTitles)
+      }
+    if (packageData) {
+      if (packageData.title) {
+        $('title').text(packageData.title);
+        $('#page_title').text(packageData.title);
+      }
+      columnHtml += '<tr>';
+      packageData.columns.forEach(function (column) {
+        columnHtml += getTd(column);
+      })
+      columnHtml += '</tr>';
+      $('#table_head').html(columnHtml);
+      //拼接table的表体
+      var bodyHtml = ''
+      packageData.rows.forEach(function (row) {
+        bodyHtml += '<tr>'
+        row.forEach(function (cell) {
+          bodyHtml += getTd(cell)
+        })
+        bodyHtml += '</tr>'
+      })
+      $('#table_body').html(bodyHtml);
+    }
+  }
+
+  function getTd(cell) {
+    var temp = '<td'
+    if (cell.colSpan) {
+      temp += ' colspan="' + cell.colSpan + '"'
+    }
+    if (cell.rowSpan) {
+      temp += ' rowspan="' + cell.rowSpan + '"'
+    }
+    if (cell.style) {
+      temp += ' style="' + cell.style + '"'
+    }
+    temp += '>'
+    if (cell.type == 'link') {
+      temp += '<a href="index.html?' + cell.linkId + '">' + cell.name + '</a></td>';
+    } else {
+      temp += cell.name + '</td>';
+    }
+    return temp
+  }
+
+  function getTdl(cell) {
+
+  }
+</script>
+</html>

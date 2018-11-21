@@ -1,0 +1,23 @@
+{
+  "title": "黄金体检套餐-1338",
+  "columns": [{"name": "序号", "style": "width:26pt;"}, {"name": "地区"}, {"name": "医院名称"}, {"name": "体检套餐"}],
+  "rows": [
+    [{"name": "1"}, {"name": "广州"}, {"name": "南方医科大学南方医院"}, {"name": "A套餐-男", "type": "link", "linkId": "am12"}],
+    [{"name": "2"}, {"name": "广州"}, {"name": "南方医科大学南方医院"}, {"name": "A套餐-女", "type": "link", "linkId": "af12"}],
+    [{"name": "3"}, {"name": "广州"}, {"name": "南方大学南方医院"}, {"name": "女性保健II套餐", "type": "link", "linkId": "nxbj2tc"}],
+    [{"name": "4"}, {"name": "广州"}, {"name": "暨南大学附属第一医院"}, {"name": "健康检查项目（男）-B", "type": "link", "linkId": "jkjcxmnB"}],
+    [{"name": "5"}, {"name": "广州"}, {"name": "暨南大学附属第一医院"}, {"name": "健康检查项目（女）-B", "type": "link", "linkId": "jkjcxmfB"}],
+    [{"name": "6"}, {"name": "广州"}, {"name": "暨南大学附属第一医院"}, {"name": "健康检查项目（女）-A", "type": "link", "linkId": "jkjcxmfA"}],
+    [{"name": "7"}, {"name": "广州"}, {"name": "广东省人民医院"}, {"name": "男士套餐A", "type": "link", "linkId": "mstcA12"}],
+    [{"name": "8"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "F1(18-49岁)-女", "type": "link", "linkId": "f11849f"}],
+    [{"name": "9"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "F2(50-65岁)-女", "type": "link", "linkId": "f25065f"}],
+    [{"name": "10"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "A套餐-男", "type": "link", "linkId": "atcm12"}],
+    [{"name": "11"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "A套餐-女", "type": "link", "linkId": "atcf12"}],
+    [{"name": "12"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "A-女（30岁以下）", "type": "link", "linkId": "atcf3012"}],
+    [{"name": "13"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "B-男（30岁-40岁）", "type": "link", "linkId": "btcm3012"}],
+    [{"name": "14"}, {"name": "天津"}, {"name": "天津医院体检中心"}, {"name": "男宾体检B套餐", "type": "link", "linkId": "mbtjbtc12"}],
+    [{"name": "15"}, {"name": "天津"}, {"name": "天津医院体检中心"}, {"name": "女宾体检B套餐", "type": "link", "linkId": "fbtjbtc12"}],
+    [{"name": "16"}, {"name": "上海"}, {"name": "复旦大学附属中山医院南院"}, {"name": "B套餐（男）", "type": "link", "linkId": "btcm12"}],
+    [{"name": "17"}, {"name": "上海"}, {"name": "复旦大学附属中山医院南院"}, {"name": "B套餐（女已婚）", "type": "link", "linkId": "btcf12"}]
+  ]
+}

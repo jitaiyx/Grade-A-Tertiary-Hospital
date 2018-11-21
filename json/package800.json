@@ -1,0 +1,22 @@
+{
+  "title": "贵宾体检套餐-888",
+  "columns": [{"name": "序号", "style": "width:26pt;"}, {"name": "地区"}, {"name": "医院名称"}, {"name": "体检套餐"}],
+  "rows": [
+    [{"name": "1"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "M1(18-49岁)-男", "type": "link", "linkId": "dtl_M1"}],
+    [{"name": "2"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "M2(50-65岁)-男", "type": "link", "linkId": "dtl_M2"}],
+    [{"name": "3"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "M3(65岁以上)-男", "type": "link", "linkId": "dtl_M3"}],
+    [{"name": "4"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "F3(65岁以上)-女", "type": "link", "linkId": "dtl_F3"}],
+    [{"name": "5"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "A-男(30岁以下)", "type": "link", "linkId": "dtl_A_manl"}],
+    [{"name": "6"}, {"name": "天津"}, {"name": "天津医院体检中心"}, {"name": "男宾体检A套餐", "type": "link", "linkId": "dtl_A_man"}],
+    [{"name": "7"}, {"name": "天津"}, {"name": "天津医院体检中心"}, {"name": "女宾体检A套餐", "type": "link", "linkId": "dtl_A_woman"}],
+    [{"name": "8"}, {"name": "广州"}, {"name": "南方医科大学珠江医院"}, {"name": "A套餐(14-18岁)-女", "type": "link", "linkId": "dtl_A_woman1418"}],
+    [{"name": "9"}, {"name": "广州"}, {"name": "南方医科大学南方医院"}, {"name": "标准Ⅰ套餐（男性）", "type": "link", "linkId": "dtl_standard_man"}],
+    [{"name": "10"}, {"name": "广州"}, {"name": "南方医科大学南方医院"}, {"name": "标准Ⅰ套餐（女性）", "type": "link", "linkId": "dtl_standard_womman"}],
+    [{"name": "11"}, {"name": "广州"}, {"name": "暨南大学附属第一医院"}, {"name": "健康检查项目（男）-A", "type": "link", "linkId": "jkjcxmma"}],
+    [{"name": "12"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "二号团检套餐（30-40岁）-女", "type": "link", "linkId": "stj34f"}],
+    [{"name": "13"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "二号团检套餐（30-40岁）-男", "type": "link", "linkId": "stj34m"}],
+    [{"name": "14"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "二号个检套餐（30-40岁）", "type": "link", "linkId": "sgj34"}],
+    [{"name": "15"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "三号团检套餐（40-50岁-男）", "type": "link", "linkId": "ttj45m"}],
+    [{"name": "16"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "三号团检套餐（40-50岁-女）", "type": "link", "linkId": "ttj45f"}]
+  ]
+}

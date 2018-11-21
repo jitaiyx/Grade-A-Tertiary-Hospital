@@ -1,0 +1,21 @@
+{
+  "title": "至尊体检套餐-10000",
+  "columns": [{"name": "序号", "style": "width:26pt;"}, {"name": "地区"}, {"name": "医院名称"}, {"name": "体检套餐"}],
+  "rows": [
+    [{"name": "1"}, {"name": "北京"}, {"name": "北京协和医院"}, {"name": "VIP女性体检套餐", "type": "link", "linkId": "vipf1w"}],
+    [{"name": "2"}, {"name": "北京"}, {"name": "北京协和医院"}, {"name": "VIP男性体检套餐I＞40岁", "type": "link", "linkId": "vipm401w"}],
+    [{"name": "3"}, {"name": "北京"}, {"name": "北京协和医院"}, {"name": "VIP女性体检套餐I＞40岁", "type": "link", "linkId": "vipf401w"}],
+    [{"name": "4"}, {"name": "北京"}, {"name": "中国人民解放军总医院（301医院）"}, {"name": "男宾体检D套餐", "type": "link", "linkId": "mbtjdtc1w"}],
+    [{"name": "5"}, {"name": "北京"}, {"name": "中国人民解放军总医院（301医院）"}, {"name": "女宾体检D套餐", "type": "link", "linkId": "fbtjdtc1w"}],
+    [{"name": "6"}, {"name": "北京"}, {"name": "中国人民解放军总医院（301医院）"}, {"name": "女宾体检E套餐", "type": "link", "linkId": "fbtjetc1w"}],
+    [{"name": "7"}, {"name": "北京"}, {"name": "中国人民解放军总医院（301医院）"}, {"name": "男宾体检E套餐", "type": "link", "linkId": "mbtjetc1w"}],
+    [{"name": "8"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "黄金-女F3(50-65岁)", "type": "link", "linkId": "hjmf31w"}],
+    [{"name": "9"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "钻石-女F4(大于65岁)", "type": "link", "linkId": "zsmf41w"}],
+    [{"name": "10"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "钻石-女F1(18-29岁)", "type": "link", "linkId": "zsmf11w"}],
+    [{"name": "11"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "钻石-女F2(30-49岁)", "type": "link", "linkId": "zsmf21w"}],
+    [{"name": "12"}, {"name": "深圳"}, {"name": "香港大学深圳医院"}, {"name": "钻石-女F3(50-65岁)", "type": "link", "linkId": "zsmf31w"}],
+    [{"name": "13"}, {"name": "广州"}, {"name": "南方医科大学珠江医院"}, {"name": "E套餐（贵宾套餐）-女", "type": "link", "linkId": "etcf1w"}],
+    [{"name": "14"}, {"name": "广州"}, {"name": "南方医科大学南方医院"}, {"name": "豪华套餐-男", "type": "link", "linkId": "hhtcm1w"}],
+    [{"name": "15"}, {"name": "广州"}, {"name": "南方医科大学南方医院"}, {"name": "豪华套餐-女", "type": "link", "linkId": "hhtcf1w"}]
+  ]
+}

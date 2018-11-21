@@ -1,0 +1,17 @@
+{
+  "title": "钻石体检套餐-5000",
+  "columns": [{"name": "序号", "style": "width:26pt;"}, {"name": "地区"}, {"name": "医院名称"}, {"name": "体检套餐"}],
+  "rows": [
+    [{"name": "1"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "五号个检套餐-女", "type": "link", "linkId": "fhgjtcf50"}],
+    [{"name": "2"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "五号个检套餐-男", "type": "link", "linkId": "fhgjtcf50"}],
+    [{"name": "3"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "五号团检套餐-男", "type": "link", "linkId": "fhtjtcm50"}],
+    [{"name": "4"}, {"name": "广州"}, {"name": "中山大学附属第一医院"}, {"name": "五号团检套餐-女", "type": "link", "linkId": "fhtjtcm50"}],
+    [{"name": "5"}, {"name": "广州"}, {"name": "暨南大学附属第一医院"}, {"name": "健康检查项目（男）-F", "type": "link", "linkId": "jkjcxmmf50"}],
+    [{"name": "6"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "F套餐-男", "type": "link", "linkId": "ftcm50"}],
+    [{"name": "7"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "F套餐-女", "type": "link", "linkId": "ftcf50"}],
+    [{"name": "8"}, {"name": "深圳"}, {"name": "北京大学深圳医院"}, {"name": "C-男（50岁以上）", "type": "link", "linkId": "cm5050"}],
+    [{"name": "9"}, {"name": "北京"}, {"name": "中国人民解放军总医院（301医院）"}, {"name": "男宾体检B套餐", "type": "link", "linkId": "mbtjbtc50"}],
+    [{"name": "10"}, {"name": "北京"}, {"name": "中国人民解放军总医院（301医院）"}, {"name": "女宾体检B套餐", "type": "link", "linkId": "fbtjbtc50"}],
+    [{"name": "11"}, {"name": "北京"}, {"name": "北京朝阳医院"}, {"name": "C套餐（女已婚）", "type": "link", "linkId": "ctcf50"}]
+  ]
+}

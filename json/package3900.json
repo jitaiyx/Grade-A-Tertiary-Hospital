@@ -1,0 +1,15 @@
+{
+  "title": "豪华体检套餐-3900",
+  "columns": [{"name": "序号", "style": "width:26pt;"}, {"name": "地区"}, {"name": "医院名称"}, {"name": "体检套餐"}],
+  "rows": [
+    [{"name": "1"}, {"name": "上海"}, {"name": "复旦大学附属中山医院南院"}, {"name": "F套餐（男）", "type": "link", "linkId": "ftcm39"}],
+    [{"name": "2"}, {"name": "上海"}, {"name": "复旦大学附属中山医院南院"}, {"name": "F套餐（女已婚）", "type": "link", "linkId": "ftcf39"}],
+    [{"name": "3"}, {"name": "广州"}, {"name": "南方医科大学珠江医院"}, {"name": "C套餐（30岁以上）", "type": "link", "linkId": "ctcf39"}],
+    [{"name": "4"}, {"name": "广州"}, {"name": "南方医科大学南方医院"}, {"name": "C套餐-男", "type": "link", "linkId": "ctcm39"}],
+    [{"name": "5"}, {"name": "广州"}, {"name": "暨南大学附属第一医院"}, {"name": "健康检查项目（男-E）", "type": "link", "linkId": "jkjcxmme"}],
+    [{"name": "6"}, {"name": "广州"}, {"name": "广东省人民医院"}, {"name": "男士套餐B", "type": "link", "linkId": "mstcb39"}],
+    [{"name": "7"}, {"name": "广州"}, {"name": "广东省人民医院"}, {"name": "女士套餐B", "type": "link", "linkId": "fstcb39"}],
+    [{"name": "8"}, {"name": "深圳"}, {"name": "深圳市第二人民医院"}, {"name": "E套餐-男", "type": "link", "linkId": "etcm39"}],
+    [{"name": "9"}, {"name": "深圳"}, {"name": "北京大学深圳医院"}, {"name": "B-男（40岁以上）", "type": "link", "linkId": "bm4039"}]
+  ]
+}
